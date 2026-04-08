@@ -1,7 +1,7 @@
 import GaoDarkWhite from "./gaodarkwhite.js";
 import Rainbow from './Rainbow.js';
 import Gaored from "./gaored.js";
-import  Orange  from './Gaoorange.js';
+import Orange from './Gaoorange.js';
 import Ranger from "./Ranger.js";
 
 
@@ -45,7 +45,7 @@ vanDarkFong.callAnimalSpirit();
 
 
 
-const Raven = new Rainbow("inwza007","Rainbow","Fatcat");
+const Raven = new Rainbow("inwza007", "Rainbow", "Fatcat");
 
 
 Raven.human()
@@ -56,8 +56,8 @@ Raven.callAnimalSpirit()
 Raven.aftertransform()
 Raven.makeSound()
 
-Ranger.teamUp(gaored,Raven)
+Ranger.teamUp(gaored, Raven)
 
-
+gaored.combat(Raven)
 
 
