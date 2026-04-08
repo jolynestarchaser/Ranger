@@ -1,4 +1,4 @@
-
+import GaoDarkWhite from "./gaodarkwhite.js";
 import Rainbow from './Rainbow.js';
 import Gaored from "./gaored.js";
 import  Orange  from './Gaoorange.js';
@@ -29,6 +29,22 @@ quote.shout();
 
 
 
+const vanDarkFong = new GaoDarkWhite("vanDarkFong", "White", "Gao Phoenix");
+
+vanDarkFong.shout();
+vanDarkFong.callAnimalSpirit();
+
+console.log("--- Transformation Time ---");
+
+vanDarkFong.transform();
+vanDarkFong.shout();
+vanDarkFong.callAnimalSpirit();
+
+
+
+
+
+
 const Raven = new Rainbow("inwza007","Rainbow","Fatcat");
 
 
@@ -41,3 +57,7 @@ Raven.aftertransform()
 Raven.makeSound()
 
 Ranger.teamUp(gaored,Raven)
+
+
+
+
